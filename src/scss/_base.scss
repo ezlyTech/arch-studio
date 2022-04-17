@@ -24,6 +24,11 @@
    line-height: $line-height-base;
    overflow-x: hidden;
  }
+
+ .section {
+  background-color: $color-white;
+  width: 100%;
+ }
  
  /**
   * COMPONENTS

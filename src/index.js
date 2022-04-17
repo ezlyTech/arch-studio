@@ -7,6 +7,7 @@ import App from './pages/App';
 /* Styles */
 import styles from './scss/style.scss';
 
+
 ReactDOM.render(
   <BrowserRouter>
     <App />

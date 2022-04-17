@@ -1,0 +1,105 @@
+.header {
+
+    .header__container {
+        max-width: $max-width-medium;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 56px 0;
+
+        .header__logo {
+            margin-right: 95px;
+        }
+
+        .header__navlinks {
+            .navlinks__items {
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                gap: 56px;
+
+                .navlinks__item {
+                    list-style: none;
+                    color: $color-mediumgrey;
+                    
+                    a {
+                        font-weight: $font-weight-bold;
+                    }
+                }
+            }
+        }
+
+        .mobile__header-navlinks {
+            display: none;
+        }
+
+        .header__button {
+            .header__open-menu {
+                display: none;
+            }
+
+            .header__close-menu {
+                display: none;
+            }
+        }
+    }
+}
+
+
+// <576px
+@include media("<mobile-wide") {
+    .header {
+        .header__container {
+            max-width: $max-width-small;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            padding: 32px 0;
+            justify-content: space-between;
+            position: relative;
+    
+            .header__logo {
+                margin-right: 0;
+            }
+    
+            .header__navlinks {
+                display: none;
+            }
+
+            .header__button {
+                .header__open-menu {
+                    display: block;
+                }
+
+                .header__close-menu {
+                    display: none;
+                }
+            }
+
+            .mobile__header-navlinks {
+                display: block;
+                max-width: 310px;
+
+                .header-navlinks__wrapper {
+                    position: absolute;
+                    width: 100%;
+                    top: 96px;
+                    right: 0;
+
+                    .navlinks__items {
+                        background-color: $color-verylightgrey;
+                        padding: 48px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 32px;
+
+                        a {
+                            font-size: $font-size-medium;
+                            font-weight: $font-weight-bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

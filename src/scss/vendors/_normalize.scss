@@ -75,9 +75,16 @@
   
   a {
     background-color: transparent;
-    color: #d3354c;
     text-decoration: none;
-    font-weight: 800;
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
   }
   
   /**

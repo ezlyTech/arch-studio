@@ -1,0 +1,117 @@
+.footer {
+    margin-top: 100px;
+
+    .footer__container-desktop {
+        max-width: $max-width-medium;
+        margin: 0 auto;
+        position: relative;
+
+        .footer-links {
+            background-color:  $color-verylightgrey;
+            max-width: 984px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+
+            .footer__logo {
+                background-color: $color-darkblue;
+                width: 200px;
+                text-align: center;
+                height: 100%;
+    
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                }
+            }
+    
+            .footer__navlinks {
+                .navlinks__items {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 56px;
+                    margin-left: 85px;
+    
+                    .navlinks__item {
+                        list-style: none;
+                        color: $color-mediumgrey;
+                        
+                        a {
+                            font-weight: $font-weight-bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__cta {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    .footer__container-mobile {
+        display: none;
+    }
+}
+
+
+// <576px
+@include media("<mobile-wide") {
+
+    .footer {
+        margin-top: 100px;
+
+        .footer__container-desktop {
+            display: none;
+        }
+    
+        .footer__container-mobile {
+            display: block;
+            width: 100%;
+            position: relative;
+
+            .footer__logo {
+                width: 120px;
+                height: 120px;
+                background-color: $color-darkblue;
+                position: absolute;
+                top: -15%;
+                left: 50%;
+                transform: translateX(-50%);
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                }
+            }
+
+            .footer-links {
+                background-color:  $color-verylightgrey;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding-bottom: 48px;
+                padding-top: 100px;
+
+                .navlinks__items {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+
+                    a {
+                        font-weight: $font-weight-bold;
+                        color: $color-mediumgrey;
+                    }
+                }
+            }
+        }
+    }
+
+}
