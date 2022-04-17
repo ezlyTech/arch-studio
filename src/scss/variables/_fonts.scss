@@ -1,0 +1,70 @@
+/**
+ * FONT FAMILIES
+ */
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ $font-family-spartan: "League Spartan", Arial, sans-serif;
+ 
+ /**
+  * FONT SIZES
+  */
+ $font-size-root: 15px;
+ 
+ $font-size-base: pxToRem(15px);
+ $font-size-small: pxToRem(13px);
+ $font-size-medium: pxToRem(18px);
+ $font-size-large: pxToRem(56px);
+ $font-size-x-large: pxToRem(80px);
+ $font-size-xx-large: pxToRem(200px);
+ 
+ /**
+  * FONT WEIGHTS
+  */
+ $font-weight-light: 300;
+ $font-weight-regular: 400;
+ $font-weight-medium: 500;
+ $font-weight-semibold: 600;
+ $font-weight-bold: 700;
+ $font-weight-extrabold: 800;
+ 
+ /**
+  * LINE HEIGHTS
+  */
+ $line-height-base: pxToRem(25px);
+ $line-height-buttons: pxToRem(25px);
+ 
+ /**
+  * FORMATS
+  */
+ @mixin heading {
+   font-family: $font-family-spartan;
+   font-weight: $font-weight-extrabold;
+ }
+ 
+ @mixin h1 {
+   @include heading;
+   font-size: $font-size-xx-large;
+   line-height: pxToRem(200px);
+   color: $color-verylightgrey;
+ }
+ 
+ @mixin h2 {
+   @include heading;
+   font-size: $font-size-x-large;
+   line-height: pxToRem(80px);
+   color: $color-darkblue;
+ }
+ 
+ @mixin h3 {
+   @include heading;
+   font-size: $font-size-large;
+   line-height: pxToRem(56px);
+   color: $color-darkblue;
+ }
+ 
+ @mixin h4 {
+   @include heading;
+   font-size: $font-size-medium;
+   line-height: 1.2083;
+   color: $color-darkblue;
+ }

@@ -1,0 +1,37 @@
+/**
+ * GLOBALS
+ */
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+   transition-duration: $anm-duration-default;
+   transition-timing-function: $timing-function-default;
+   transition-property: none;
+   scroll-padding-top: 80px;
+ }
+ 
+ html {
+   font-size: $font-size-root;
+ }
+ 
+ body {
+   font-size: $font-size-base;
+   font-family: $font-family-spartan;
+   font-weight: $font-weight-regular;
+   color: $color-text;
+   background-color: $color-white;
+   line-height: $line-height-base;
+   overflow-x: hidden;
+ }
+ 
+ /**
+  * COMPONENTS
+  */
+ 
+ /**
+  * GENERAL
+  */
+ @import "./general/footer";
+ @import "./general/header";
+ @import "./general/typography";

@@ -1,0 +1,35 @@
+/**
+ * BORDER RADIUS
+ */
+ $border-radius-elements: 6px;
+
+
+ /**
+  * PADDINGS
+  */
+ $padding-global-x: 30px;
+ 
+ 
+ /**
+  * MARGINS
+  */
+ $margin-global-y: 20px;
+ 
+ 
+ /**
+  * Z-INDICES
+  */
+ $z-index-modal: 30;
+ $z-index-header: 20;
+ $z-index-main: 10;
+ 
+ 
+ /**
+  * MAX WIDTHS
+  */
+ $max-width-wide: 1920px;
+ $max-width-medium: 1084px;
+ $max-width-small: 1110px;
+ 
+ $max-width-header: $max-width-small;
+ $max-width-container: $max-width-small;

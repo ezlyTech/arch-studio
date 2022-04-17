@@ -1,0 +1,7 @@
+/**
+ * PX TO REM
+ * Converts px to rem by using the root font size.
+ */
+ @function pxToRem( $target, $context: $font-size-root ) {
+    @return ( $target / $context ) * 1rem;
+}

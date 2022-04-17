@@ -1,0 +1,106 @@
+/* SPACER (.spacer) */
+.spacer {
+  width: 100%;
+  display: block;
+  height: 20px;
+  // Default background color.
+  background-color: $color-grey;
+}
+
+/* SPACER [ Size 100 ] (.spacer--size-100) */
+.spacer--size-100 {
+  height: 100px;
+}
+/* SPACER [ Size 75 ] (.spacer--size-75) */
+.spacer--size-75 {
+  height: 75px;
+}
+/* SPACER [ Size 60 ] (.spacer--size-60) */
+.spacer--size-60 {
+  height: 60px;
+}
+/* SPACER [ Size 30 ] (.spacer--size-30) */
+.spacer--size-30 {
+  height: 30px;
+}
+/* SPACER [ Size 25 ] (.spacer--size-25) */
+.spacer--size-25 {
+  height: 25px;
+}
+/* SPACER [ Size 15 ] (.spacer--size-15) */
+.spacer--size-15 {
+  height: 15px;
+}
+/* SPACER [ Size 10 ] (.spacer--size-10) */
+.spacer--size-10 {
+  height: 10px;
+}
+/* SPACER [ Size 5 ] (.spacer--size-5) */
+.spacer--size-5 {
+  height: 5px;
+}
+
+/* SPACER [ Color Grey ] (.spacer--color-grey) */
+.spacer--color-grey {
+  background-color: $color-grey;
+}
+
+/* SPACER [ Color White ] (.spacer--color-white) */
+.spacer--color-white {
+  background-color: $color-white;
+}
+
+/* SPACER [ Color Blue ] (.spacer--color-blue) */
+.spacer--color-blue {
+  background-color: $color-blue;
+}
+
+/* SPACER [ Color Red ] (.spacer--color-red) */
+.spacer--color-red {
+  background-color: $color-red;
+}
+
+/* SPACER [ Color Yellow ] (.spacer--color-yellow) */
+.spacer--color-yellow {
+  background-color: $color-yellow;
+}
+
+/**
+ * MEDIA QUERIES
+ */
+
+// < 768px
+@include media("<tablet") {
+  /* SPACER [ Size 100 ] (.spacer--size-100) */
+  .spacer--size-100 {
+    height: 50px;
+  }
+  /* SPACER [ Size 75 ] (.spacer--size-75) */
+  .spacer--size-75 {
+    height: 38px;
+  }
+  /* SPACER [ Size 60 ] (.spacer--size-60) */
+  .spacer--size-60 {
+    height: 30px;
+  }
+  /* SPACER [ Size 30 ] (.spacer--size-30) */
+  .spacer--size-30 {
+    height: 15px;
+  }
+  /* SPACER [ Size 25 ] (.spacer--size-25) */
+  .spacer--size-25 {
+    height: 13px;
+  }
+  /* SPACER [ Size 15 ] (.spacer--size-15) */
+  .spacer--size-15 {
+    height: 8px;
+  }
+  /* SPACER [ Size 10 ] (.spacer--size-10) */
+  .spacer--size-10 {
+    height: 5px;
+  }
+  /* SPACER [ Size 5 ] (.spacer--size-5) */
+  .spacer--size-5 {
+    height: 3px;
+  }
+}
