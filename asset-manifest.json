@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/arch-studio/static/css/main.8af3f367.css",
-    "main.js": "/arch-studio/static/js/main.2cffa6d8.js",
+    "main.css": "/arch-studio/static/css/main.76a05333.css",
+    "main.js": "/arch-studio/static/js/main.96c2b6be.js",
     "index.html": "/arch-studio/index.html",
-    "main.8af3f367.css.map": "/arch-studio/static/css/main.8af3f367.css.map",
-    "main.2cffa6d8.js.map": "/arch-studio/static/js/main.2cffa6d8.js.map"
+    "static/media/white-icon-arrow.svg": "/arch-studio/static/media/white-icon-arrow.de1ab9ae9771f79ab834f9042d6ed843.svg",
+    "static/media/icon-arrow.svg": "/arch-studio/static/media/icon-arrow.896e4b1575c673ad28f80a83f740973c.svg",
+    "main.76a05333.css.map": "/arch-studio/static/css/main.76a05333.css.map",
+    "main.96c2b6be.js.map": "/arch-studio/static/js/main.96c2b6be.js.map"
   },
   "entrypoints": [
-    "static/css/main.8af3f367.css",
-    "static/js/main.2cffa6d8.js"
+    "static/css/main.76a05333.css",
+    "static/js/main.96c2b6be.js"
   ]
 }
