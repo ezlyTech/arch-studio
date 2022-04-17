@@ -1,6 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
+import blackArrow from '../assets/icons/icon-arrow.svg';
+import whiteArrow from '../assets/icons/white-icon-arrow.svg';
+
 const Home = () => {
     return (
       <div>
@@ -10,8 +13,12 @@ const Home = () => {
         <h4> Heading 4 </h4>
         <p> This is a paragraph </p>
         <a> This is a link </a>
-        <button className='primary-btn'> Button 1 </button>
-        <button className='secondary-btn'> Button 2 </button>
+        <a href="/">
+          <button className='primary-btn'>
+            <p>Button</p>
+            <img className='white-arrow' src={whiteArrow} />
+          </button>
+        </a>
       </div>
     )
 }

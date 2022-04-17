@@ -1,0 +1,23 @@
+// PRIMARY BUTTON
+
+.primary-btn {
+    background-color: $color-darkblue;
+    padding: 24px 32px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    p {
+        color: $color-white;
+        margin: 0;
+        line-height: 0;
+    }
+}
+
+.primary-btn:hover {
+    background-color: $color-darkgrey;
+    transition: .3s;
+}
