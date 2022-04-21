@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/arch-studio/static/css/main.09f1c5e0.css",
-    "main.js": "/arch-studio/static/js/main.f3b75c74.js",
+    "main.css": "/arch-studio/static/css/main.46a8b568.css",
+    "main.js": "/arch-studio/static/js/main.b7163a38.js",
+    "static/media/image-federal.jpg": "/arch-studio/static/media/image-federal.b94f9f608538c234ff78.jpg",
     "static/media/white-logo.svg": "/arch-studio/static/media/white-logo.98680edd1894b36a967791c0c7b94deb.svg",
     "static/media/logo.svg": "/arch-studio/static/media/logo.ddbfb6873fe10618a4a792bcf16bace2.svg",
     "index.html": "/arch-studio/index.html",
@@ -9,11 +10,11 @@
     "static/media/white-icon-arrow.svg": "/arch-studio/static/media/white-icon-arrow.de1ab9ae9771f79ab834f9042d6ed843.svg",
     "static/media/icon-arrow.svg": "/arch-studio/static/media/icon-arrow.896e4b1575c673ad28f80a83f740973c.svg",
     "static/media/icon-hamburger.svg": "/arch-studio/static/media/icon-hamburger.3d00d6af749176d290a7ab93c1620706.svg",
-    "main.09f1c5e0.css.map": "/arch-studio/static/css/main.09f1c5e0.css.map",
-    "main.f3b75c74.js.map": "/arch-studio/static/js/main.f3b75c74.js.map"
+    "main.46a8b568.css.map": "/arch-studio/static/css/main.46a8b568.css.map",
+    "main.b7163a38.js.map": "/arch-studio/static/js/main.b7163a38.js.map"
   },
   "entrypoints": [
-    "static/css/main.09f1c5e0.css",
-    "static/js/main.f3b75c74.js"
+    "static/css/main.46a8b568.css",
+    "static/js/main.b7163a38.js"
   ]
 }
