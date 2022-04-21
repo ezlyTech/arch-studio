@@ -1,0 +1,40 @@
+.cases {
+    display: flex;
+    justify-content: space-between;
+    max-width: $max-width-medium;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .cases__container {
+        max-width: 350px;
+        position: relative;
+        height: 100%;
+
+        .tile-box__image {
+            /* ... */
+
+        }
+
+        .tile-box__text {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            padding: 40px;
+
+            .tile-box__heading,
+            .tile-box__description {
+                color: $color-white;
+            }
+
+            .tile-box__description {
+                margin-top: 0;
+            }
+
+            .tile-box__heading {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
